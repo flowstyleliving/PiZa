@@ -4,6 +4,7 @@
   "description": "communal shopping and cooking done right",
   "main": "./client/client.js",
   "engines": {
+    "node": "6.1.0",
     "npm": "3.8.9"
   },
   "scripts": {
