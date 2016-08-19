@@ -7,7 +7,7 @@
     "npm": "3.8.9"
   },
   "scripts": {
-    "start": "node server/server.js --ignore components",
+    "start": "node components/App.js --ignore components",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "nodemon server/server.js --ignore components"
   },
