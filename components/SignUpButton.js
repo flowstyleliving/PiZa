@@ -9,7 +9,7 @@ export default class SignUpButton extends Component {
         marginLeft: '-4em',
         borderStyle: 'solid',
         borderColor: 'black',
-        borderRadius: '5%',
+        borderRadius: '10pt',
         backgroundColor: '#66a3ff',
         color: 'white',
         fontWeight: 'bold',
