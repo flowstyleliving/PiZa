@@ -6,8 +6,7 @@ import { Provider } from 'react-redux'
 import App from '../components/App'
 import configureStore from '../redux/store'
 import { connect } from 'react-redux'
-import { Router, Route, IndexLink, hashHistory } from 'react-router'
-import About from '../components/About'
+// import { firebase, helps } from 'redux-react-firebase'
 
 let initialState = {
   recipes: [{
@@ -15,7 +14,7 @@ let initialState = {
     pic: 'pic goes here',
     title: 'Omelette',
     descript: 'Breakfast classic',
-    ingred: ['Eggs', 'Coconut Butter']
+    ingred: ['Eggs', 'Vegan Butter']
   }]
 }
 
@@ -25,11 +24,7 @@ let store = configureStore(initialState)
 render(
   // This wraps the Store around App.js
   <Provider store={store}>
-      <Router history={hashHistory}>
-        <App/>
-        <Route path="/" component={App}></Route>
-        <Route path='about' component={About}></Route>
-      </Router>
+    <App/>
   </Provider>,
   document.getElementById('App')
 )

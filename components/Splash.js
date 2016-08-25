@@ -36,7 +36,7 @@ export default class Splash extends Component {
         <br/>
         Proudly Presents:</h1>
         <center>
-          <img src={'http://livesimply.me/wp-content/uploads/2015/10/Weekly-Food-Prep-A-Real-Life-Video-Guide.jpg'}/>
+          <img style={styles.image} src={'http://livesimply.me/wp-content/uploads/2015/10/Weekly-Food-Prep-A-Real-Life-Video-Guide.jpg'}/>
           <h1 style={styles.descript}>Get together in a commercial kitchen and
           <br/> prepare food for the entire week, as a community.
           <br/>
