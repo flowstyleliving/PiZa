@@ -3,18 +3,21 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
+import routes from '../routes'
 import actions from '../redux/actions'
 import RecipeList from './RecipeList'
 import RecipeInput from './RecipeInput'
 import Splash from './Splash'
 import SignUpButton from './SignUpButton'
 import ReactBootstrap, { Button } from 'react-bootstrap'
+import MenuBar from './MenuBar'
 
 class App extends Component {
 
   render() {
     return(
       <div>
+        <MenuBar/>
         <Splash/>
         <br/>
         <SignUpButton/>
